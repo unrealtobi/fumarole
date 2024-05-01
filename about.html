@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./dist/output.css" />
+  <!-- // my fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <section class="bg-cover bg-fixed  opacity-100" style="
+  background-image: url('./images/about/three-factory-workers-safety-hats-discussing-manufacture-plan.jpg');
+">
+    <!-- HEADER SECTION  -->
+    <header class="bg-opacity-100 ">
+      <nav class="flex justify-between items-center w-[92%] mx-auto pt-2">
+        <div>
+          <img src="./images/logoipsum.png" class="h-10 w-28 rounded-md" alt="" />
+        </div>
+        <div
+          class="nav-list md:static absolute bg-orange-500 md:bg-transparent md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5 overflow-hidden ">
+          <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-12 text-white">
+            <li><a href="./rusty.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./projects.html">Our Projects</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#" class="md:hidden">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="flex items-center gap-6">
+          <button class="bg-orange-500 font-bold text-white hidden md:inline-block rounded-lg h-10 w-28">
+            Contact Us
+          </button>
+          <ion-icon name="menu-outline" onclick="theToggle(this)" class="text-3xl md:hidden"></ion-icon>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- landing about section  -->
+      <section class="pb-32">
+        <div class="bg-transparent md:rounded rounded bg-opacity-55  flex justify-center items-center mt-36 md:mt-36">
+          <div class="text-center">
+            <h1
+              class="text-white text-6xl  md:text-7xl text-center text-opacity-100 font-semibold animate-fade-in font-sans">
+              About Us.
+            </h1>
+            <h2 class="text-white text-2xl font-sans mr-4 ml-4 animate-fade-inner font-light mt-14 md:mr-32 md:ml-32">
+              Fueling your journey with reliability and excellence. Your trusted partner in energy solutions, backed by
+              one of the most diversified construction groups.
+            </h2>
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </section>
+  </section>
+
+  <!-- FUMAROLE SPECIALIZES IN THE FOLLOWING SECTORS  -->
+  <section>
+    <div class="flex justify-around md:ml-8 flex-col md:flex-row text-center  md:mr-8 md:mt-12 md:items-center  ">
+      <div>
+        <h1 class="font-sans text-2xl mt-3  font-bold">
+          <span class="md:flex">FUMAROLE IS</span>
+          <span class="md:flex">ONE OF NIGERIA'S</span>
+          <span class="md:flex">LEADING OIL AND GAS COMPANIES</span>
+        </h1>
+
+
+      </div>
+      <div>
+        <p class="text-blue-300 mb-1 mt-3 font-light">Fumarole Oil Company emerges as a leading force among Nigeria's
+          diversified
+          private oil groups </p>
+
+        <p class="text-blue-300 mb-2 mt-3 font-light">Our legacy of excellence stems from Tier 1 and corporate expertise,
+          ensuring unparalleled client
+          satisfaction.</p>
+        <h2 class="font-bold text-xl mt-3 text-blue-300">With over 90+ satisfied clients, we work across all major
+          sectors
+          including:</h2>
+      </div>
+    </div>
+
+    <div class="bg-slate-600 pb-20  mt-16">
+      <div class="grid md:grid-cols-4 flex-row ml-28 gap-4">
+
+        <!-- Each <div> is a single column.
+        Place some content inside to see the effect. -->
+        <div
+          class=" rounded bg-white border mt-20 md:max-w-48 md:max-h-48 w-48 h-48 text-center  border-blue-400  border-opacity-75 overflow-hidden hover:scale-105 transition duration-300 ease-in-out">
+          <i class="fa-solid  text-blue-500 text-8xl mt-6 fa-oil-well"></i>
+          <h2 class=" font-semibold mt-10"> OIL AND GAS </h2>
+        </div>
+
+        <div
+          class=" rounded bg-white border mt-20 md:max-w-48 md:max-h-48 w-48 h-48 text-center  border-blue-400  border-opacity-75 overflow-hidden hover:scale-105 transition duration-300 ease-in-out ">
+          <i class="fa-solid fa-ship  text-blue-500 text-8xl mt-6"></i>
+          <h2 class=" font-semibold mt-10">MARINE</h2>
+        </div>
+
+        <div
+          class=" rounded bg-white border mt-20 md:max-w-48 md:max-h-48 w-48 h-48 text-center  border-blue-400  border-opacity-75 overflow-hidden hover:scale-105 transition duration-300 ease-in-out ">
+          <i class="fa-solid fa-bore-hole  text-blue-500 text-8xl mt-6"></i>
+          <h2 class=" font-semibold mt-10">BOREHOLE DRILLING</h2>
+        </div>
+
+        <div
+          class=" rounded bg-white border mt-20 md:max-w-48 md:max-h-48 w-48 h-48 text-center  border-blue-400 overflow-hidden hover:scale-105 transition duration-300 ease-in-out border-opacity-75">
+          <i class="fa-solid fa-road  text-blue-500 text-8xl mt-6"></i>
+          <h2 class=" font-semibold mt-10">ROAD CONSTRUCTION</h2>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- OUR MISSION AND VISION  -->
+  <section class="pt-14 pb-14 w-full h-full">
+    <!-- our mission  -->
+    <div class="flex flex-col md:flex-row justify-center md:justify-between items-center">
+      <div>
+        <h1 class="md:text-left text-center md:ml-20 md:mt-14 text-6xl md:text-9xl font-bold text-blue-400 font-sans "> OUR MISSION </h1>
+      </div>
+      <div class="md:float-right  mt-5 md:mr-9 ">
+        <img src="./images/about/smiling-architects-looking-blueprint (1).jpg" class="h-64 w-80 rounded" alt="">
+        <div class="text-center hidden md:block mt-4">
+          <h1 class="md:text-center font-serif mr-16 text-xl font-medium">
+            <pre class="animate-fade-inner">
+            " I envision a future where our oil company
+            leads with integrity, innovation, and
+            sustainability, shaping the energy
+            landscape for generations to come."
+          <span class="font-bold text-2xl" > ~ MD</span>  
+          </pre>
+          </h1>
+         
+        </div>
+        
+      </div>
+      <div>
+        <h1 class="md:hidden mt-4 block text-xl text-center font-light " >
+          " I envision a future where our oil company
+          leads with integrity, innovation, and
+          sustainability, shaping the energy
+          landscape for generations to come."
+          <span class="font-bold text-2xl" > ~ MD</span>
+        </h1>
+
+      </div>
+
+    </div>
+    <!-- our vision  -->
+    <div class="flex md:justify-between md:flex-row  flex-col justify-center items-center md:mt-7  ">
+      <div class="md:hidden block">
+        <h1 class="md:text-left text-center md:ml-20 md:mt-14 mt-8 text-6xl md:text-9xl font-bold text-blue-400 font-sans "> OUR   <br> VISION </h1>
+      </div>
+      <div class="md:ml-9 mt-5">
+        <img src="./images/about/architect-using-transparent-tablet-smart-construction-technology.jpg"
+          class="h-64 w-80 rounded" alt="">
+        <div class="text-center md:block hidden mt-4">
+          <h1 class="text-center font-serif text-xl font-medium">
+            <pre class="mr-20 animate-fade-inner">
+                Fumarole envisions Nigeria at the forefront of sustainable
+               energy leadership, pioneering innovative solutions in oil
+                and gas to drive economic prosperity, environmental stewardship,
+                 and societal advancement throughout the nation.
+              
+            </pre>
+          </h1>
+        </div>
+      </div>
+      <div class="mr-20 hidden md:block">
+        <h1 class="text-right mt-14 text-9xl font-bold text-blue-400 font-sans">OUR VISION</h1>
+      </div>
+      <div>
+        <h1 class="md:hidden mt-4 block text-xl ml-4 mr-4 text-center font-light " >
+          Fumarole envisions Nigeria at the forefront of sustainable
+          energy leadership, pioneering innovative solutions in oil
+           and gas to drive economic prosperity, environmental stewardship,
+            and societal advancement throughout the nation.
+         
+        </h1>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- technical partners  -->
+  <section class="bg-slate-700 pb-32">
+    <!-- text section  -->
+    <div>
+      <h1 class="md:text-4xl text-2xl font-semibold justify-center pt-5 flex text-gray-500 text-center">
+        WE HAVE PARTNERED WITH
+      </h1>
+    </div>
+    <div class="justify-center  flex items-center mt-12 ">
+      <div class="grid md:grid-cols-3 items-center md:gap-52 gap-16">
+
+        <!-- Each <div> is a single column.
+          Place some content inside to see the effect. -->
+          <div class="md:h-48 md:w-48 w-44 h-44">
+            <img class="rounded-full h-full w-full object-cover" src="./images/our partners/polyskope labs.jpg" alt="">
+        </div>
+        
+
+        <div class="md:h-48 md:w-48 w-44 h-44">
+          <img 
+          class="rounded-full h-full w-full object-cover"
+          src="./images/our partners/aqua.png" 
+          alt="">
+        </div>
+
+        <div  class="md:h-48 md:w-48 w-44 h-44">
+          <img
+          class="rounded-full h-full w-full object-cover" src="./images/our partners/bay.png" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer class="">
+    <div
+      class="bg-black flex md:justify-around justify-center items-center text-center  text-white pt-8 pb-8">
+      <img src="./images/logoipsum.png" class="hidden md:block">
+      <div class="flex flex-col  gap-3">
+        <div>
+          <h1 class="md:text-2xl text-3xl font-semibold">CONTACT US</h1>
+        </div>
+
+        <!-- icons div  -->
+        <div class="flex items-center">
+          <ion-icon name="call" class="text-xl"></ion-icon>
+          <span class="ml-2 text-slate-400">XXX-XXX</span>
+        </div>
+        <div class="flex items-center mt-2">
+          <ion-icon name="mail" class="text-xl"></ion-icon>
+          <span class="ml-2 text-slate-400">Fumarole@yahoo.ng</span>
+        </div>
+        <div class="flex items-center mt-2">
+          <ion-icon name="pin" class="text-xl"></ion-icon>
+          <span class="ml-2 text-slate-400">No 3a ipsum road</span>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+<script type="text/javascript" src="./node_modules/tw-elements/js/tw-elements.umd.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./rusty.js"></script>
+<script src="https://kit.fontawesome.com/a8b3d26b07.js" crossorigin="anonymous"></script>
+
+</html>
